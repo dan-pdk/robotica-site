@@ -1,0 +1,106 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.flex {
+    display: flex;
+    flex-direction: row;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    overflow-x: hidden;
+}
+
+header {
+    height: 50px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.15);
+    width: 90vw;
+    display: flex;
+    margin: auto;
+    gap: 20px;
+}
+
+header > .logo > img {
+    width: 150px;
+    height: 50px;
+}
+
+
+header > nav {
+    display: flex;
+    gap: 80px;
+    align-items: center;
+    height: 50px;
+    justify-content: flex-end;
+    width: 100%;
+
+}
+
+header > nav > a {
+    font-size: 1.2rem;
+    text-decoration: none;
+    color: black;
+}
+
+.banner {
+    width: 400px;
+    height: 275px;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    margin-top: 50px;
+    margin-left: 200px;
+}
+
+.banner > img {
+    width: 600px;
+    height: 400px;
+}
+
+.banner > h1 {
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.aviso {
+    width: 200px;
+    height: 250px;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    padding: 10px;
+    font-size: 1.25rem;
+    margin-left: 250px;
+    margin-top: 100px;
+}
+
+.aviso-avisado {
+    border-bottom: 1px solid rgba(0, 0, 0);
+    padding: 16px;
+    display: flex;
+    justify-content: center;
+}
+
+.saiba {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    text-align: center;
+    font-size: 2.5rem;
+}
+
+.saiba > a {
+    font-size: 1.3rem;
+    text-decoration: none;
+    color: white;
+    padding: 6px;
+    background-color: #2fa118;
+    border-radius: 5px;
+}
+
+.sirene {
+    font-size: 5rem;
+}
