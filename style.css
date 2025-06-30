@@ -148,7 +148,11 @@ header > nav > a {
     font-size: 2.5rem;
     
     background-color: #2fa118;
+    text-decoration: none;
+    color: white;
 }
+
+
 
 .cronogramatable {
     border: 1px solid red;
