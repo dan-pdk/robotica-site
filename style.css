@@ -104,3 +104,23 @@ header > nav > a {
 .sirene {
     font-size: 5rem;
 }
+
+.categorias {
+    width: 250px;
+    height: 300px;
+    border: 1px solid black;
+    padding: 6px;
+    margin-left: 850px;
+    margin-top: 100px;
+}
+
+.categorias > h1 {
+    display: block;
+    text-align: center;
+    margin: auto;
+}
+
+.categorias > ul {
+    list-style-type: none;
+}
+
