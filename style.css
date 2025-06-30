@@ -110,6 +110,8 @@ header > nav > a {
     height: 300px;
     border: 1px solid black;
     padding: 6px;
+    position: relative;
+    bottom: 182px;
     margin-left: 850px;
 }
 
@@ -121,6 +123,10 @@ header > nav > a {
 
 .categorias > ul {
     list-style-type: none;
+}
+
+.categoridas > li {
+    
 }
 
 .main {
@@ -142,12 +148,19 @@ header > nav > a {
 .saibamaisbutao{
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-end;
     gap: 20px;
     text-align: center;
     font-size: 2.5rem;
-    
+    margin-left: 290px;
+
     background-color: #2fa118;
+    width: fit-content;
+
+    text-decoration: none;
+    color: white;
+    border-radius: 5px;
+    padding: 2px;
 }
 
 .cronogramatable {
