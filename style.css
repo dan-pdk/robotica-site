@@ -151,18 +151,27 @@ header > nav > a {
     justify-content: flex-end;
     gap: 20px;
     text-align: center;
-    font-size: 2.5rem;
+    font-size: 1.5rem;
+    padding: 6px;
     margin-left: 290px;
 
     background-color: #2fa118;
-    width: fit-content;
-
     text-decoration: none;
     color: white;
     border-radius: 5px;
-    padding: 2px;
 }
 
 .cronogramatable {
     border: 1px solid red;
+}
+
+.categorias > ul > li > img {
+    position: relative;
+    top: 15px;
+}
+
+.vermais {
+    color: #2fa118;
+    position: relative;
+    top: 20px;
 }
